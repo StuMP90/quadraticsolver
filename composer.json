@@ -1,0 +1,33 @@
+{
+    "name": "stump90/quadraticsolver",
+    "description": "A module for the SilverStripe CMS which allows you to display a page to solve quadratic equations.",
+    "homepage": "https://www.z-add.co.uk/",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "quadratic",
+        "equation"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Stuart Millington",
+            "email": "devel@dsv1.co.uk"
+        }
+    ],
+    "require": {
+        "silverstripe/cms": "^4.0"
+    },
+    "extra": {
+        "expose": [
+                "images",
+                "javascript",
+                "css"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+                "StuMP90\\QuadraticSolver\\": "src/"
+        }
+    }
+}

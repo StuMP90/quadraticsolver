@@ -1,0 +1,10 @@
+/*
+    CSS for quadratic sover
+*/
+#quadsolve-NOS {
+  display: none;	
+}
+#quadsolve-answers {
+    display: block;
+    clear: left;
+}

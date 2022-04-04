@@ -1,0 +1,6 @@
+---
+Name: quadraticsolverlegacy
+---
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    QuadraticSolverPage: StuMP90\QuadraticSolver\Model\QuadraticSolverPage
