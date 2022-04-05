@@ -36,6 +36,8 @@ class QuadraticSolverPage extends \Page {
         // Second Content Block
         $PostscriptHTMLfield = new HTMLEditorField('Postscript', 'Intro');
         $PostscriptHTMLfield->setRows(8);
+        $PostscriptHTMLfield->addExtraClass('stacked');
+        $PostscriptHTMLfield->setAttribute('style', 'max-width:100%');
         $fields->addFieldToTab('Root.Main', $PostscriptHTMLfield, 'Content');
         //$fields->addFieldToTab('Root.Main', $PostscriptHTMLfield);
 
