@@ -12,7 +12,7 @@ use SilverStripe\View\SSViewer;
 
 class QuadraticSolverPage extends \Page {
 
-    private static $icon = 'stump90/quadraticsolver:images/treeicons/quadratic-page.png';
+    private static $icon = 'innoweb/silverstripe-page-icons: client/icons/education.svg';
     private static $description = 'A quadratic equation solver.';
     private static $singular_name = 'Quadratic Solver Page';
     private static $plural_name = 'Quadratic Solver Pages';

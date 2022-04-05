@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "silverstripe/cms": "^4.0"
+        "silverstripe/cms": "^4.0",
+        "innoweb/silverstripe-page-icons": "dev-master"
     },
     "extra": {
         "expose": [
